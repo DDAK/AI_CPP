@@ -6,7 +6,8 @@ Haar cascade is a machine learning-based object detection method used in compute
 Go into the haar folder and type:
 
 ``` bash
-mkdir build && cd build 
+mkdir build && cd build
+conan install ..
 cmake ..
 cmake --build .
 ```

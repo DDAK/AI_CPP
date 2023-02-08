@@ -5,7 +5,7 @@ Read the companion article at this [url](https://ddak.github.io/ai,/ml,/programm
 
 This repo has following examples, so far:
 
-- Haar cascade detector: [haar](haar/README.md)
-- HOG detector: [HOG](hog/README.md)
+- Haar cascade detector: [haar](haar/)
+- HOG detector: [HOG](hog/)
 
 

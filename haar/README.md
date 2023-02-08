@@ -10,8 +10,13 @@ mkdir build && cd build
 cmake ..
 cmake --build .
 ```
+This will build the program.
 ## Runing the program
-That will build haar and you can run from build folder it using 
+Download the pretrained cascade detector for opencv git [repo](https://github.com/opencv/opencv/tree/master/data/haarcascades). The opencv repo has many pretrained haar detector and I am using one of those in the example below.
+
+You can run haar program from build folder while passing the pretrained haar cascade file with the path.
+
+For example:
 ```
-bin\haar
+bin\haar haarcascade_frontalcatface.xml
 ```

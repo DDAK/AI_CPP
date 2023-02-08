@@ -6,7 +6,8 @@ Histogram of Oriented Gradients (HOG) is a computer vision and image processing 
 Go into the hog folder and type:
 
 ``` bash
-mkdir build && cd build 
+mkdir build && cd build
+conan install ..
 cmake ..
 cmake --build .
 ```
